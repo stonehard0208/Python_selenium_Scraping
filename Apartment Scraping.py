@@ -41,9 +41,9 @@ WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.XPATH, '//*
 SUBMITBOTTON = driver.find_element(By.XPATH, '//*[@id="loginButton"]')
 
 
-USERNAME.send_keys("171250011xyd@gmail.com")
+USERNAME.send_keys("")
 
-PASSWORD.send_keys("vgS!Q49TG+QfqDk")
+PASSWORD.send_keys("")
 
 SUBMITBOTTON.click()
 
